@@ -10,4 +10,9 @@
 
 ]]--
 
-if (game.PlaceId==(3101667897 -0)) then loadstring(game:HttpGet("https://raw.githubusercontent.com/khizzea/Scripts/main/Legends%20Of%20Speed?token=GHSAT0AAAAAACBMTSYRTQJ6LLQ6N7XBR34KZB2XL5A"))();elseif (game.PlaceId==(3956818878 -(458 + 39))) then loadstring(game:HttpGet("https://raw.githubusercontent.com/khizzea/Scripts/main/Ninja%20Legends?token=GHSAT0AAAAAACBMTSYQTMR5FRKJ25L2YYWUZB2XMVQ"))();end
+if game.PlaceId == 3101667897 then --Legends Of Speed
+loadstring(game:HttpGet('https://raw.githubusercontent.com/khizzea/Scripts/main/Legends%20Of%20Speed?token=GHSAT0AAAAAACBMTSYRTQJ6LLQ6N7XBR34KZB2XL5A'))()
+elseif game.PlaceId == 3956818381 then -- Ninja Legends
+loadstring(game:HttpGet('https://raw.githubusercontent.com/khizzea/Scripts/main/Ninja%20Legends?token=GHSAT0AAAAAACBMTSYQTMR5FRKJ25L2YYWUZB2XMVQ'))()
+end
+
